@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "appleiphone",
+    "description": "High-end smartphone from Apple.",
+    "price": 100000,
+    "stock": 16,
+    "imageUrl": "https://example.com/apple-phone.jpg"
+  },
+  {
+    "id": 2,
+    "name": "banana",
+    "description": "Fresh and ripe banana.",
+    "price": 25,
+    "stock": 60,
+    "imageUrl": "https://example.com/banana.jpg"
+  },
+  {
+    "id": 3,
+    "name": "cake",
+    "description": "Delicious homemade cake.",
+    "price": 450,
+    "stock": 20,
+    "imageUrl": "https://example.com/cake.jpg"
+  },
+  {
+    "id": 4,
+    "name": "charger",
+    "description": "Fast-charging charger for mobile devices.",
+    "price": 4500,
+    "stock": 30,
+    "imageUrl": "https://example.com/charger.jpg"
+  },
+  {
+    "id": 5,
+    "name": "cable",
+    "description": "High-quality USB cable.",
+    "price": 100,
+    "stock": 100,
+    "imageUrl": "https://example.com/cable.jpg"
+  },
+  {
+    "id": 6,
+    "name": "earbuds",
+    "description": "Wireless earbuds with great sound quality.",
+    "price": 500,
+    "stock": -100,
+    "imageUrl": "https://example.com/earbuds.jpg"
+  },
+  {
+    "id": 7,
+    "name": "watch",
+    "description": "Stylish and durable wristwatch.",
+    "price": 5000,
+    "stock": 15,
+    "imageUrl": "https://example.com/watch.jpg"
+  },
+  {
+    "id": 8,
+    "name": "bag",
+    "description": "Spacious and fashionable bag.",
+    "price": 750,
+    "stock": 25,
+    "imageUrl": "https://example.com/bag.jpg"
+  },
+  {
+    "id": 9,
+    "name": "pen",
+    "description": "Smooth-writing ballpoint pen.",
+    "price": 150,
+    "stock": 50,
+    "imageUrl": "https://example.com/pen.jpg"
+  },
+  {
+    "id": 10,
+    "name": "mouse",
+    "description": "Wireless computer mouse with ergonomic design.",
+    "price": 750,
+    "stock": 35,
+    "imageUrl": "https://example.com/mouse.jpg"
+  }
+]

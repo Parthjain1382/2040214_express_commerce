@@ -1,0 +1,183 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "20240214_express_commerce",
+    "dateExported": "2024-02-16T05:40:53.181Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9ff145d5-6f50-4431-98e9-ac595ed7ee4a",
+            "colId": "c9541634-1833-427f-b35e-4a4144d8d57f",
+            "containerId": "",
+            "name": "checkout",
+            "url": "http://localhost:3007/checkout/?id=6&stock=4",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-02-15T17:02:31.136Z",
+            "modified": "2024-02-16T04:30:31.826Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "6",
+                    "isPath": false
+                },
+                {
+                    "name": "stock",
+                    "value": "4",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "043283ea-e02d-429a-b992-3a22ff1b1fee",
+            "colId": "c9541634-1833-427f-b35e-4a4144d8d57f",
+            "containerId": "",
+            "name": "post/product",
+            "url": "http://localhost:3007/product",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-15T17:12:07.306Z",
+            "modified": "2024-02-16T04:34:46.627Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n    \"id\": 11,\n    \"name\": \"keyboard\",\n    \"description\": \"mechanical keyboard\",\n    \"price\": 7500,\n    \"stock\": 40,\n    \"imageUrl\": \"https://example.com/keyboard.jpg\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "322b3806-bb6a-4849-9d93-f5b48f7d3687",
+            "colId": "c9541634-1833-427f-b35e-4a4144d8d57f",
+            "containerId": "",
+            "name": "del/product",
+            "url": "http://localhost:3007/product?id=11",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-02-15T17:45:35.714Z",
+            "modified": "2024-02-15T17:46:14.376Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "11",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "c37237fe-8bd4-4aac-8b49-f715c7c5838e",
+            "colId": "c9541634-1833-427f-b35e-4a4144d8d57f",
+            "containerId": "",
+            "name": "get/search",
+            "url": "http://localhost:3007/search?q=appleiphone",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-02-15T17:37:53.647Z",
+            "modified": "2024-02-16T04:29:29.625Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "q",
+                    "value": "appleiphone",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "2cd8d39d-ea5e-403b-aa94-f25a73e45c24",
+            "colId": "c9541634-1833-427f-b35e-4a4144d8d57f",
+            "containerId": "",
+            "name": "get/order",
+            "url": "http://localhost:3007/order?orderId=0d172707-ea81-4d18-b72a-cf5badd24006",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-02-15T19:08:15.020Z",
+            "modified": "2024-02-16T05:11:25.934Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "orderId",
+                    "value": "0d172707-ea81-4d18-b72a-cf5badd24006",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "8f7840f4-e695-41cb-81ed-5ce3ddd31ce4",
+            "colId": "c9541634-1833-427f-b35e-4a4144d8d57f",
+            "containerId": "",
+            "name": "del/order",
+            "url": "http://localhost:3007/order?orderid=124",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2024-02-15T19:25:49.936Z",
+            "modified": "2024-02-16T04:44:57.220Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "orderid",
+                    "value": "124",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "859059bf-da4e-4207-99b2-69260b2a5760",
+            "colId": "c9541634-1833-427f-b35e-4a4144d8d57f",
+            "containerId": "",
+            "name": "get/status",
+            "url": "http://localhost:3007/status?orderid=12",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-02-15T19:50:11.505Z",
+            "modified": "2024-02-16T04:47:01.879Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "orderid",
+                    "value": "12",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "4e271e77-0928-46f8-bc5c-e8107f6fe1b0",
+            "colId": "c9541634-1833-427f-b35e-4a4144d8d57f",
+            "containerId": "",
+            "name": "put/order",
+            "url": "http://localhost:3007/order/?address=12MainSt&O_status=Shipped&orderId=0d172707-ea81-4d18-b72a-cf5badd24006",
+            "method": "PUT",
+            "sortNum": 130000,
+            "created": "2024-02-16T04:50:55.433Z",
+            "modified": "2024-02-16T05:12:12.964Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "address",
+                    "value": "12MainSt",
+                    "isPath": false
+                },
+                {
+                    "name": "O_status",
+                    "value": "Shipped",
+                    "isPath": false
+                },
+                {
+                    "name": "orderId",
+                    "value": "0d172707-ea81-4d18-b72a-cf5badd24006",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
